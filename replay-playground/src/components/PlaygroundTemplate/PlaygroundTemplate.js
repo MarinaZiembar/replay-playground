@@ -29,7 +29,7 @@ function PlaygroundTemplate () {
     return(
         <Container fluid className={style.playgroundContainer}>
             <Row>
-                <Col className={style.codingSide}>
+                <Col xs={12} md={6} className={style.codingSide}>
                     <h2>HTML</h2>
                     <textarea 
                         id="htmlTextarea" 
@@ -45,7 +45,7 @@ function PlaygroundTemplate () {
                     >
                     </textarea>
                 </Col>
-                <Col className={style.previewSide}>
+                <Col xs={12} md={6} className={style.previewSide}>
                     <iframe id="iFrame" className={style.previewContainer} title="Output"></iframe>
                 </Col>
             </Row>

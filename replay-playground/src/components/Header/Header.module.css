@@ -50,3 +50,11 @@
     display:flex;
     align-items: center;
 }
+
+
+@media (max-width: 760px){
+   
+    .subtitle{
+        display:none;
+    } 
+}

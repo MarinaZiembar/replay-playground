@@ -41,3 +41,23 @@ h2{
     color:white;
 }
 
+
+@media (max-width: 760px){
+    .playgroundContainer{
+        height: auto;
+    }    
+    .codingSide,
+    .previewSide{
+        height:100vh;
+    }
+    .htmlContainer,
+    .cssContainer{
+        height:50%;
+    }
+    .previewContainer{
+        height:82vh;
+        margin-top:130px;
+        width:100%;
+        background-color: #fff;
+    }
+}
