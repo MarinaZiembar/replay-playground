@@ -1,0 +1,52 @@
+.headerContainer{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.20 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.header{
+    height:8vh;
+    width: 100%;
+    z-index:1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:#F94144
+    #F3722C
+    #F8961E
+    #F9844A
+    #F9C74F
+    #90BE6D
+    #43AA8B
+    #4D908E
+    #577590
+    #277DA1
+}
+
+.headerLogoContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.headerLogo{
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    font-size:18px;
+    color:white;
+    font-weight:600;
+    margin-left:10px;
+}
+.subtitle{
+    color:#fff;
+    font-size:14px;
+}
+
+.optionsContainer{
+    display:flex;
+    align-items: center;
+}

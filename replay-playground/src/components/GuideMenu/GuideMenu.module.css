@@ -1,0 +1,83 @@
+
+.menuBackdrop{
+    position:absolute;
+    z-index:10000;
+    width:100%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    top:0;
+}
+
+.menuContainer{
+    background-color: #fff;
+    border-radius: 15px;
+    height:auto;
+    width:40%;
+    padding:40px;
+    position: relative;
+}
+
+.closeMenu{
+    position:absolute;
+    top:-10px;
+    right: 0px;
+    cursor:pointer;
+    padding:20px;
+    font-size:30px;
+}
+
+.guidesContainer{
+    display:flex;
+    flex-direction: column;
+}
+
+.menuTitle{
+    font-weight:600;
+    text-align:center;
+}
+
+.menuSubtitle{
+    margin:15px 0px 50px 0px !important;
+    text-align:center;
+}
+
+.menuItem{
+    font-size:18px;
+    font-weight:500;
+    color: #90BE6D;
+    padding:8px 0px;
+    text-decoration: none;
+    transition:all 0.4s ease;
+    display:flex;
+    align-items:center;
+}
+
+.menuItem:hover{
+    color:#F94144;
+    transform: translateY(-3px);
+    transition:all 0.4s ease;
+}
+
+.menuItem.disabled{
+    color: grey;
+    transition:none;
+    cursor:default;
+}
+
+.menuItem.disabled:hover{
+    transform: none;
+}
+
+.upcomingTag{
+    background-color:#F3722C;
+    color:white;
+    padding:4px 8px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-left: 20px !important;
+    font-size:10px;
+}

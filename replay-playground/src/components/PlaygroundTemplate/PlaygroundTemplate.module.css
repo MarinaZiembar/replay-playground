@@ -1,0 +1,43 @@
+
+.playgroundContainer{
+    height: 86.5vh;
+}
+
+.codingSide,
+.previewSide{
+    padding-bottom:30px;
+}
+
+.htmlContainer,
+.cssContainer,
+.previewContainer{
+    background: rgba( 255, 255, 255, 0.55 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.2 );
+    backdrop-filter: blur( 18px );
+    -webkit-backdrop-filter: blur( 18px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    overflow: auto;
+}
+.htmlContainer,
+.cssContainer{
+    height:42%;
+    width:100%;
+    resize:none;
+    outline: none;
+    padding:25px;
+    font-family: 'Roboto Mono', Courier, monospace;
+}
+.previewContainer{
+    height:82vh;
+    margin-top:20px;
+    width:100%;
+    background-color: #fff;
+}
+
+h2{
+    font-size:24px !important;
+    font-weight: 600;
+    margin:15px 0px 10px 0px !important;
+    color:white;
+}
+

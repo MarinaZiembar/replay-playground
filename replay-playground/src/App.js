@@ -5,8 +5,8 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import Home from './components/pages/Home';
-import Playground from './components/pages/Playground';
+import Playground from './pages/Playground';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './AppStyles.css';
 import { LanguageProvider } from "./contexts/LanguageContext";
 
@@ -16,8 +16,7 @@ function App() {
       <div className="App">
         <BrowserRouter>
           <Routes>
-            <Route index element={<Home/>}></Route>
-            <Route exact path="/playground" element={ <Playground/>}></Route>
+            <Route index path="/" element={ <Playground/>}></Route>
           </Routes>
         </BrowserRouter>
       </div>
