@@ -44,3 +44,11 @@
 .questionContainer {
     margin-bottom:30px;
 }
+
+@media (max-width: 760px){
+    
+    .helpContainer{
+        width:96%;
+        padding:25px;
+    }
+}
