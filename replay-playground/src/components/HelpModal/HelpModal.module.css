@@ -50,5 +50,7 @@
     .helpContainer{
         width:96%;
         padding:25px;
+        max-height:98%;
+        overflow:auto;
     }
 }
