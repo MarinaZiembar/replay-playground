@@ -20,11 +20,13 @@
 }
 .htmlContainer,
 .cssContainer{
-    height:42%;
+    height:42.35%;
     width:100%;
     resize:none;
     outline: none;
     padding:25px;
+    font-weight: 500;
+    color:#124559;
     font-family: 'Roboto Mono', Courier, monospace;
 }
 .previewContainer{

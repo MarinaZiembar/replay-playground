@@ -13,16 +13,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color:#F94144
-    #F3722C
-    #F8961E
-    #F9844A
-    #F9C74F
-    #90BE6D
-    #43AA8B
-    #4D908E
-    #577590
-    #277DA1
+    color:#F94144;
 }
 
 .headerLogoContainer{
@@ -35,11 +26,17 @@
     align-items: center;
 }
 
+.headerLogo img{
+    width:30px;
+    filter: invert(100%) sepia(0%) saturate(4928%) hue-rotate(354deg) brightness(120%) contrast(103%);
+}
+
 .title{
-    font-size:18px;
+    font-size:22px;
     color:white;
     font-weight:600;
-    margin-left:10px;
+    margin-left:5px;
+    margin-bottom:0px;
 }
 .subtitle{
     color:#fff;

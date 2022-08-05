@@ -4,6 +4,7 @@ import Switch from "react-switch";
 import Button from '../Button/Button';
 import argflag from '../../images/esp.png';
 import usaflag from '../../images/eng.png';
+import logo from '../../images/code.svg';
 import {Container, Row, Col} from 'react-bootstrap';
 import {LanguageContext} from '../../contexts/LanguageContext';
 
@@ -21,7 +22,7 @@ function Header (props) {
                     <div className={styles.header}>
                         <div className={styles.headerLogoContainer}>
                             <div className={styles.headerLogo}>
-                                <img src="" alt="logo" />
+                                <img src={logo} alt="logo" />
                                 <h1 className={styles.title}>{title}</h1>
                             </div>
                             <p className={styles.subtitle}>{subtitle}</p>

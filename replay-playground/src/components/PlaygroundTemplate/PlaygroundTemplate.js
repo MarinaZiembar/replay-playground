@@ -13,15 +13,16 @@ function PlaygroundTemplate () {
         const cssTextArea = getEl('cssTextarea')
 
         document.body.onkeyup = function() {
-            iFrame.open()
+            iFrame.open();
             iFrame.writeln(
                 htmlTextArea.value +
                 '<style>' +
                 cssTextArea.value +
                 '</style>'
-            )
-            iFrame.close()
+            );
+            iFrame.close();
         }
+
     },[])
 
     
