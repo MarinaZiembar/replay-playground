@@ -31,8 +31,8 @@ export const languages = {
                     },
                     {
                         name:"📚  CSS",
-                        link:"",
-                        available:false,
+                        link:"https://www.notion.so/marina-ziembar/CSS3-bf5db88e813d44f88c3bbe6d6ba09d5b",
+                        available:true,
                     },
                     {
                         name:"📚  Trabajar en programación",
